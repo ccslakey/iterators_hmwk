@@ -44,5 +44,6 @@ function addItem(price, title) {
 }
 
 function updateSubTotal(price) {
+  var subTotalPrice = 0; 	
   $subTotal.text("$" + price);
 }
